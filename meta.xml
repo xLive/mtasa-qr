@@ -1,0 +1,7 @@
+<meta>
+	<info author="xlive (Nawaf)" type="script" name="QR" version="1.0" />
+	
+	<script src="Client.lua" type="client" />
+	
+	<script src="Server.lua" type="server" />
+</meta>
