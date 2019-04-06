@@ -3,7 +3,7 @@ function (player,_,...)
     local args = {...}
         if #args > 0 then
         local text = table.concat (args,"%20")
-        fetchRemote ("https://api.qrserver.com/v1/create-qr-code/?size=250x250&data="..text,callBack,"",false,player)
+        fetchRemote ("https://www.google.com/chart?chs=200x200&chld=M|0&cht=qr&chl="..text,callBack,"",false,player)
         outputChatBox ("Done.",player,0,255,0)
         end
     end
