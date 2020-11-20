@@ -11,6 +11,9 @@ end
 addEvent ("qr:show",true)
 addEventHandler ("qr:show",resourceRoot,
 function (p)
+    if isElement(image) then
+        destroyElement(image)
+    end
     image = dxCreateTexture (p)
     start = getTickCount ()
     if not render then
